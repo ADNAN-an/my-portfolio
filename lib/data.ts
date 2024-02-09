@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import DonorNation from "@/public/DonorNation.jpg"
+import iElect from "@/public/iElect.png"
 
 export const links = [
   {
@@ -35,20 +37,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Initiation Internship",
+    location: "Tangier, MA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    "I completed a 1-month internship at TMZ (Tangier Free Zones), which was my first experience in the professional environment.",
+    icon: React.createElement(CgWorkAlt),
+    date: "07/2023 - 08/2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "4th year of Software Engineering",
+    location: "Tangier, MA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Currently pursuing my 4th year of software engineering studies.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Present",
   },
   {
     title: "Full-Stack Developer",
@@ -62,44 +64,49 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "DonorNation",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "My end-of-year project from my 3rd year of Software Engineering. DonorNation, is a blood donation platform.",
+    tags: ["Laravel", "PHP", "mySQL", "GMaps API"],
+    imageUrl: DonorNation,
   },
   {
-    title: "rmtDev",
+    title: "iElect",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A voting platform with MetaMask authentication for secure and transparent participation in the democratic process.",
+    tags: ["DJANGO", "Python", "Tailwind", "PostgreSQL", "MetaMask"],
+    imageUrl: iElect,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
+  "PHP",
+  "Laravel",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
+  // "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  // "Prisma",
+  // "MongoDB",
+  // "Redux",
+  // "GraphQL",
+  // "Apollo",
+  // "Express",
+  "Java",
+  ".NET",
+  "SQL Server",
   "PostgreSQL",
   "Python",
   "Django",
