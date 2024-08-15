@@ -10,7 +10,7 @@ import { useActiveSectionContext } from '@/context/activer-section-context';
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
-  const handleClick = (linkName) => {
+  const handleClick = (linkName: typeof links[number]['name']) => {
     setActiveSection(linkName);
     setTimeOfLastClick(Date.now());
 
